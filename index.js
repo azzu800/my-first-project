@@ -7,6 +7,10 @@ app.get("/azzu",(req,res)=>{
 })
 
 
+app.get("/gokul",(req,res)=>{
+    res.send("gokul is a good boy")
+})
+
 app.listen(3000,()=>{
     console.log("server started")
 })
